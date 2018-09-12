@@ -20,10 +20,7 @@ class student{
   { cout<<"Enter Name, age, branch, semester, score(%)";
     cin>>name>>age>>branch>>sem>>score;
   }
-  
- 
-  
-};
+ };
 
 int main() {
 	// your code goes here
@@ -39,7 +36,7 @@ int main() {
 	
 	cout<<"\nEnter score greater than equal to filter";
 	cin>>t;
-	return 0;
+	
 	
 	for(int j=0;j<n;j++)
 	{   
@@ -49,4 +46,5 @@ int main() {
 	        s[j].display();
 	    }
 	}
+return 0;
 }
